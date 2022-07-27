@@ -55,3 +55,12 @@ def number_to_short_month_name(month_number):
         12: "Dece",
     }
     return month_short_dict[month_number]
+
+def cube_volume(side_length):
+    return side_length ** 3
+
+def string_reverse(string):
+    return string [::-1]
+
+def fahrenheit_to_celsius(fahrenheit):
+    return (fahrenheit - 32) * 5/9
